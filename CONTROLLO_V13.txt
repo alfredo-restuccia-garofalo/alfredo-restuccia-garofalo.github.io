@@ -1,0 +1,8 @@
+V13 HOME STATICA - CONTROLLO
+Pagine interne .html nel menu: 0
+Immagini principali incorporate come data URI: sì
+Foto profilo senza testo sovrapposto: sì
+Titolo ridotto e aggiornato: Infrastrutture digitali, ponti sicuri e workflow intelligenti.
+Loghi usati nella home: logo-poliba.png, logo-poliba.png per A.E.S.E.I., logo-uda.png, logo-unibas.png
+Pubblicazioni caricate nella home: 15
+Collegamenti interni a file .html rilevati: 0
