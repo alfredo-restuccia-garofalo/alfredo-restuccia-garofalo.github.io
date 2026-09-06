@@ -62,10 +62,10 @@ h1{font-size:clamp(42px,5.2vw,76px);line-height:.98;letter-spacing:-.06em;margin
 .logo-box{height:126px;width:100%;display:flex;align-items:center;justify-content:center;margin-bottom:22px}
 .logo-box img{max-height:118px;max-width:230px;width:auto;height:auto;object-fit:contain}
 .logo-box .uda{max-height:118px;border-radius:22px}.logo-box .unibas{max-height:124px;max-width:170px}
-.logo-box .polimi{max-height:108px;max-width:250px;width:auto;height:auto;object-fit:contain;filter:brightness(0) saturate(100%) invert(16%) sepia(19%) saturate(1400%) hue-rotate(169deg) brightness(90%) contrast(94%)}
-.logo-box.polimi-box{position:relative}.polimi-fallback{display:flex;align-items:center;justify-content:center;gap:10px;color:#0b3852;font-weight:900;line-height:1.05;text-align:left}.logo-box.polimi-box .polimi{position:absolute;inset:0;margin:auto;z-index:2;background:#fff}
-.polimi-fallback .mark{width:72px;height:72px;border:6px dotted #0b3852;border-radius:50%;display:grid;place-items:center;font-size:27px;letter-spacing:-.08em}
-.polimi-fallback .wordmark{font-size:22px;letter-spacing:.03em}.polimi-fallback .wordmark small{display:block;font-size:15px;font-weight:700;letter-spacing:.08em;margin-top:5px}
+.logo-box.polimi-box{position:relative}
+.polimi-fallback{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;max-width:250px;color:#0b3852;font-weight:900;line-height:1.05;text-align:left}
+.polimi-fallback .mark{flex:0 0 auto;width:72px;height:72px;border:6px dotted #0b3852;border-radius:50%;display:grid;place-items:center;font-size:27px;letter-spacing:-.08em}
+.polimi-fallback .wordmark{font-size:22px;letter-spacing:.03em;white-space:nowrap}.polimi-fallback .wordmark small{display:block;font-size:15px;font-weight:700;letter-spacing:.08em;margin-top:5px}
 .submitted-manuscripts{margin-top:48px;padding-top:42px;border-top:1px solid var(--line)}
 .submitted-manuscripts .submitted-heading{text-align:center;max-width:860px;margin:0 auto 28px}
 .submitted-manuscripts .submitted-heading h3{font-size:clamp(28px,3vw,40px);line-height:1.1;letter-spacing:-.035em;margin:8px 0 10px}
@@ -218,9 +218,8 @@ h1{font-size:clamp(42px,5.2vw,76px);line-height:.98;letter-spacing:-.06em;margin
 <h3>Università della Basilicata</h3><strong>Collaborazione editoriale</strong><p>Potenza · Special Issue</p>
 </article>
 <article class="logo-card">
-<div class="logo-box polimi-box">
-<img alt="Logo ufficiale del Politecnico di Milano" class="polimi" loading="lazy" referrerpolicy="no-referrer" src="https://www.polimi.it/_assets/4b51f00386267395f41e0940abbcd656/Images/logo-light.svg" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
-<span class="polimi-fallback" aria-label="Politecnico di Milano"><span class="mark">PM</span><span class="wordmark">POLITECNICO<small>MILANO 1863</small></span></span>
+<div class="logo-box polimi-box" role="img" aria-label="Politecnico di Milano">
+<span class="polimi-fallback"><span class="mark">PM</span><span class="wordmark">POLITECNICO<small>MILANO 1863</small></span></span>
 </div>
 <h3>Politecnico di Milano</h3><strong>Collaborazione scientifica ed editoriale</strong><p>DICA · SHM · Digital Twin · articoli congiunti</p>
 </article>
